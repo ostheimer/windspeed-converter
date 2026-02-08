@@ -1,6 +1,6 @@
 # Roadmap - Windspeed Converter WordPress Plugin
 
-## Status: Review-Fixes abgeschlossen, bereit für SVN-Upload
+## Status: Alle Fixes eingereicht - Warte auf WordPress.org Review
 
 ### Version 1.3.0 - WordPress.org Review-Fixes (Februar 2026)
 
@@ -41,7 +41,7 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Git Commit & Push | ⏳ Ausstehend |
 | Code in SVN trunk/ hochladen | ✅ Erledigt (Revision 3456315) |
 | Tag 1.3.0 in SVN tags/ erstellen | ✅ Erledigt (Revision 3456315) |
-| Antwort-E-Mail an WordPress Plugins Team senden | ⏳ Ausstehend |
+| Antwort-E-Mail an WordPress Plugins Team senden | ✅ Erledigt |
 
 ### Zukünftige Verbesserungen (Post-Review)
 
