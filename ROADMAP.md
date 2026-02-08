@@ -39,8 +39,8 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Aufgabe | Status |
 |---------|--------|
 | Git Commit & Push | ⏳ Ausstehend |
-| Code in SVN trunk/ hochladen | ⏳ Ausstehend |
-| Tag 1.3.0 in SVN tags/ erstellen | ⏳ Ausstehend |
+| Code in SVN trunk/ hochladen | ✅ Erledigt (Revision 3456315) |
+| Tag 1.3.0 in SVN tags/ erstellen | ✅ Erledigt (Revision 3456315) |
 | Antwort-E-Mail an WordPress Plugins Team senden | ⏳ Ausstehend |
 
 ### Zukünftige Verbesserungen (Post-Review)
