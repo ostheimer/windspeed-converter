@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# SVN
+.svn/
+
+# Node (falls später benötigt)
+node_modules/
+
+# Docker
+docker-compose.yml
+
+# Build artifacts
+*.zip

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wind_converter {
+	width:150px;
+	margin-bottom:15px;
+}
+
+#wind_converter .field {
+	width:190px;
+}
+
+#wind_converter label {
+	width:47%;
+	display:block;
+	float:left;
+	padding-top:6px;
+}
+
+#wind_converter input {
+	width:48%;
+	display:block;
+	float:left;
+	padding: 8px 15px;
+    height: auto;
+}
+
+.message {
+	color:#F00;
+}
+
+#link {
+	margin-top:10px !important;
+}
+
+#link a {
+	font-size:70% !important;
+	color:#CCC !important;
+}
+
+.clear {
+	clear:both;
+}

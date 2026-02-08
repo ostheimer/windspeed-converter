@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wind-speed-converter\n"
+"POT-Creation-Date: 2026-02-08 12:00+0100\n"
+"PO-Revision-Date: 2026-02-08 12:00+0100\n"
+"Last-Translator: Andreas Ostheimer <office@ostheimer.at>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: widget.php:27
+msgid "Windspeed Converter Widget"
+msgstr "Windgeschwindigkeits-Umrechner Widget"
+
+#: widget.php:56 widget.php:108 windspeed-converter.php:117
+msgid "Km/h"
+msgstr "Km/h"
+
+#: widget.php:60 widget.php:114 windspeed-converter.php:124
+msgid "Mph"
+msgstr "Mph"
+
+#: widget.php:64 widget.php:120 windspeed-converter.php:131
+msgid "Beaufort"
+msgstr "Beaufort"
+
+#: widget.php:68 widget.php:126 windspeed-converter.php:138
+msgid "M/s"
+msgstr "M/s"
+
+#: widget.php:72 widget.php:132 windspeed-converter.php:145
+msgid "Knots"
+msgstr "Knoten"
+
+#: widget.php:98
+msgid "Title"
+msgstr "Titel"
+
+#: widget.php:143
+msgid "Hide Link?"
+msgstr "Link verstecken?"
+
+#: windspeed-converter.php:83
+msgid "* Use . (dot) as comma."
+msgstr "* Benutze . (Punkt) als Komma."
+
+#: windspeed-converter.php:84
+msgid "* Number between 1 and 12"
+msgstr "* Nummer zwischen 1 und 12"
+
+#: windspeed-converter.php:85
+msgid "* Number must be an integer."
+msgstr "* Nummer muss eine ganze Zahl sein."
+
+#: windspeed-converter.php:155
+msgid "Ostheimer Webdesign and SEO"
+msgstr "Ostheimer Webdesign und SEO"
