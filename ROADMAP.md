@@ -1,6 +1,6 @@
 # Roadmap - Windspeed Converter WordPress Plugin
 
-## Status: v1.5.0 released - SVN-Commit erfolgt, warte auf Aktualisierung der Plugin-Seite
+## Status: v1.5.0 live auf WordPress.org
 
 ### Version 1.3.0 - WordPress.org Review-Fixes (Februar 2026)
 
@@ -91,4 +91,4 @@ Hintergrund: Nach der Aktivierung gab es im Backend keinerlei Hinweise zur Verwe
 | Plugin Check: keine neuen Fehler/Warnungen (nur bekannte, akzeptierte load_plugin_textdomain-Warnung) | ✅ Erledigt |
 | SVN-Commit v1.5.0 trunk + assets | ✅ Erledigt (Revision 3569428) |
 | SVN-Tag 1.5.0 | ✅ Erledigt (Revision 3569429) |
-| Release auf wordpress.org verifizieren (1.5.0 live, Block im ZIP) | ⏳ Ausstehend (SVN bestätigt, Plugin-Verzeichnis aktualisiert sich in wenigen Minuten) |
+| Release auf wordpress.org verifizieren (1.5.0 live, Block im ZIP) | ✅ Erledigt (Verzeichnis liefert 1.5.0, ZIP enthält admin.php, block/ und Editor-JSONs) |
