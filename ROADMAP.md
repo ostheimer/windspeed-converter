@@ -63,6 +63,7 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Neue Store-Assets in .wordpress-org/: Icon 128/256, Banner 772+1544 (Retina), Screenshot-1 | ✅ Erledigt |
 | deploy-to-svn.sh synct .wordpress-org/ → SVN assets/ | ✅ Erledigt |
 | Docker-Testsuite auf WP 7.0 (Plugin Check 0 Fehler, 23 Locales, E2E) | ✅ Erledigt |
+| Plugin-Check-Warnung zu load_plugin_textdomain() | ✅ Bewusst akzeptiert (gebündelte Übersetzungen, keine Language Packs auf translate.wordpress.org) |
 | SVN-Arbeitskopie /tmp/wind-speed-converter-svn vorbereitet (50 A, 5 M, MIME gesetzt) | ✅ Erledigt |
 | Branch in main gemergt und zu GitHub gepusht | ✅ Erledigt |
 | SVN-Commit v1.4.0 trunk + assets | ✅ Erledigt (Revision 3569378) |
