@@ -10,6 +10,10 @@ Ein WordPress-Plugin, das einen Windgeschwindigkeits-Umrechner als Widget oder S
 - **M/s** (Meter pro Sekunde)
 - **Knoten** (Nautische Meilen pro Stunde)
 
+## Sprachen
+
+Das Plugin enthält Übersetzungen für alle 24 EU-Amtssprachen (Bulgarisch, Dänisch, Deutsch, Englisch, Estnisch, Finnisch, Französisch, Griechisch, Irisch, Italienisch, Kroatisch, Lettisch, Litauisch, Maltesisch, Niederländisch, Polnisch, Portugiesisch, Rumänisch, Schwedisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch). Die passende Sprache wird automatisch anhand der WordPress-Spracheinstellung geladen. Für Übersetzer liegt ein POT-Template unter `languages/wind-speed-converter.pot` bei.
+
 ## Installation
 
 1. Lade den Ordner `wind-speed-converter` in das Verzeichnis `/wp-content/plugins/` hoch
@@ -46,10 +50,10 @@ Dieses Repository ist die primäre Entwicklungsquelle. Die Synchronisation zu Wo
 
 ```bash
 chmod +x deploy-to-svn.sh
-./deploy-to-svn.sh 1.3.0
+./deploy-to-svn.sh 1.4.0
 ```
 
-Das Skript synchronisiert die Dateien nach SVN trunk/ und gibt Anweisungen zum Committen und Taggen.
+Das Skript synchronisiert die Plugin-Dateien nach SVN `trunk/`, die Store-Assets aus `.wordpress-org/` nach SVN `assets/` und gibt Anweisungen zum Committen und Taggen.
 
 ### Dateistruktur
 
@@ -60,13 +64,17 @@ windspeed-converter/
 ├── windspeed-converter.js           # Konvertierungslogik (Frontend)
 ├── windspeed-converter-beaufort-scala.js  # Beaufort-Skala-Daten
 ├── windspeed-converter.css          # Plugin-Styles
-├── languages/                       # Übersetzungsdateien
+├── languages/                       # Übersetzungen (24 EU-Amtssprachen, .po/.mo)
+│   ├── wind-speed-converter.pot     # Template für Übersetzer
 │   ├── wind-speed-converter-de_DE.po
-│   └── wind-speed-converter-de_DE.mo
+│   ├── wind-speed-converter-de_DE.mo
+│   └── ...                          # weitere Sprachen (bg, cs, da, el, es, ...)
+├── .wordpress-org/                  # Store-Assets (Icon, Banner, Screenshot)
 ├── readme.txt                       # WordPress.org Plugin-Readme
 ├── LICENSE                          # GPLv2 Lizenz
 ├── ROADMAP.md                       # Projekt-Roadmap
 ├── deploy-to-svn.sh                 # SVN-Deploy-Skript
+├── .distignore                      # Ausschlüsse für SVN-Deploy
 └── .gitignore
 ```
 

@@ -1,6 +1,6 @@
 # Roadmap - Windspeed Converter WordPress Plugin
 
-## Status: Alle Fixes eingereicht - Warte auf WordPress.org Review
+## Status: v1.4.0 fertig und auf GitHub - SVN-Release auf WordPress.org ausstehend
 
 ### Version 1.3.0 - WordPress.org Review-Fixes (Februar 2026)
 
@@ -38,7 +38,7 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 
 | Aufgabe | Status |
 |---------|--------|
-| Git Commit & Push | ⏳ Ausstehend |
+| Git Commit & Push | ✅ Erledigt |
 | Code in SVN trunk/ hochladen | ✅ Erledigt (Revision 3456315) |
 | Tag 1.3.0 in SVN tags/ erstellen | ✅ Erledigt (Revision 3456315) |
 | Antwort-E-Mail an WordPress Plugins Team senden | ✅ Erledigt |
@@ -47,7 +47,7 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 
 | Feature | Status |
 |---------|--------|
-| Mehrsprachigkeit ausbauen (weitere Sprachen) | 📋 Geplant |
+| Mehrsprachigkeit ausbauen (weitere Sprachen) | ✅ Erledigt (v1.4.0, alle 24 EU-Amtssprachen) |
 | Moderne UI/UX-Überarbeitung | 📋 Geplant |
 | Block Editor (Gutenberg) Widget | 📋 Geplant |
 | Unit-Tests mit PHPUnit | 📋 Geplant |
@@ -64,4 +64,7 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | deploy-to-svn.sh synct .wordpress-org/ → SVN assets/ | ✅ Erledigt |
 | Docker-Testsuite auf WP 7.0 (Plugin Check 0 Fehler, 23 Locales, E2E) | ✅ Erledigt |
 | SVN-Arbeitskopie /tmp/wind-speed-converter-svn vorbereitet (50 A, 5 M, MIME gesetzt) | ✅ Erledigt |
+| Branch in main gemergt und zu GitHub gepusht | ✅ Erledigt |
 | SVN-Commit v1.4.0 (trunk + tag + assets) — braucht wordpress.org-Credentials | ⏳ Ausstehend |
+| Release auf wordpress.org verifizieren (1.4.0 live, Assets, Sprachen im ZIP) | ⏳ Ausstehend |
+| Docker-Testumgebung abräumen (docker compose down -v), Worktree + Branch löschen | ⏳ Ausstehend |
