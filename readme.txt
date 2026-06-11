@@ -3,7 +3,7 @@ Contributors: helpstring
 Tags: windspeed, converter, beaufort, knots, weather
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 1.3.0
+Stable tag: 1.4.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -22,6 +22,9 @@ The user has to write one of five values and the plugin calculates the others. S
 #### Widget
 * Just insert the widget in the chosen sidebar, type a title and activate the wanted options
 
+#### Languages
+The plugin ships with translations for all 24 official languages of the European Union: Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish and Swedish.
+
 #### Try the demo
 See the [Windspeed Converter site](https://www.ostheimer.at/wordpress-plugins/windspeed-converter/ "Windspeed Converter site") for a test run!
 
@@ -34,10 +37,13 @@ See the [Windspeed Converter site](https://www.ostheimer.at/wordpress-plugins/wi
 
 == Screenshots ==
 
-1. Windspeed Converter Frontend Widget
-2. Windspeed Converter Backend Widget Control
+1. The Windspeed Converter on the frontend with a live conversion (100 km/h)
 
 == Frequently Asked Questions ==
+
+= Is the plugin available in my language? =
+
+Very likely, yes. Translations for all 24 official EU languages are bundled with the plugin and are picked up automatically based on your site language setting.
 
 = How can I display the Windspeed Converter on the Frontend? =
 
@@ -48,6 +54,12 @@ You can add the shortcode `[windspeed_converter]` in a post or page so that the 
 Yes, use the shortcode attributes to disable specific fields. For example: `[windspeed_converter beaufort="false" ms="false"]`
 
 == Changelog ==
+
+= 1.4.0 =
+* Added translations for all 24 official EU languages (Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish)
+* Added .pot translation template for translators
+* Re-added load_plugin_textdomain() so the bundled translations are actually loaded (required because no language packs exist on translate.wordpress.org)
+* Improved German translation wording
 
 = 1.3.0 =
 * Fixed all issues reported by the WordPress Plugin Review Team

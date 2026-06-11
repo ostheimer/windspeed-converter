@@ -1,4 +1,4 @@
-# German translation for the Windspeed Converter plugin.
+# Czech translation for the Windspeed Converter plugin.
 # Copyright (C) 2026 Andreas Ostheimer
 # This file is distributed under the GPLv2 or later.
 msgid ""
@@ -8,25 +8,25 @@ msgstr ""
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
 "Last-Translator: Andreas Ostheimer <office@ostheimer.at>\n"
-"Language-Team: German\n"
-"Language: de_DE\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Domain: wind-speed-converter\n"
 
 #: windspeed-converter.php:80
 msgid "* Use . (dot) as comma."
-msgstr "* Bitte . (Punkt) als Dezimaltrennzeichen verwenden."
+msgstr "* Použijte . (tečku) jako desetinný oddělovač."
 
 #: windspeed-converter.php:81
 msgid "* Number between 1 and 12"
-msgstr "* Zahl zwischen 1 und 12"
+msgstr "* Číslo mezi 1 a 12"
 
 #: windspeed-converter.php:82
 msgid "* Number must be an integer."
-msgstr "* Zahl muss eine ganze Zahl sein."
+msgstr "* Číslo musí být celé číslo."
 
 #: widget.php:52 widget.php:107 windspeed-converter.php:125
 msgid "Km/h"
@@ -46,20 +46,20 @@ msgstr "M/s"
 
 #: widget.php:68 widget.php:127 windspeed-converter.php:153
 msgid "Knots"
-msgstr "Knoten"
+msgstr "Uzly"
 
 #: widget.php:75 windspeed-converter.php:163
 msgid "Ostheimer Webdesign and SEO"
-msgstr "Ostheimer Webdesign und SEO"
+msgstr "Ostheimer Webdesign a SEO"
 
 #: widget.php:24
 msgid "Windspeed Converter Widget"
-msgstr "Windgeschwindigkeits-Umrechner Widget"
+msgstr "Widget převodníku rychlosti větru"
 
 #: widget.php:102
 msgid "Title"
-msgstr "Titel"
+msgstr "Název"
 
 #: widget.php:134
 msgid "Hide Link?"
-msgstr "Link verstecken?"
+msgstr "Skrýt odkaz?"

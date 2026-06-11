@@ -4,7 +4,7 @@
  * Plugin URI:  https://www.ostheimer.at/
  * Description: Insert a wind speed converter via widget or shortcode. The user enters one of five values (km/h, mph, Beaufort, m/s, knots) and the plugin calculates the others.
  * Author:      Andreas Ostheimer
- * Version:     1.3.0
+ * Version:     1.4.0
  * Author URI:  https://www.ostheimer.at
  * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,7 +36,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'WSCONV_PLUGIN_FILE', __FILE__ );
 define( 'WSCONV_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'WSCONV_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-define( 'WSCONV_VERSION', '1.3.0' );
+define( 'WSCONV_VERSION', '1.4.0' );
+
+/**
+ * Load the bundled translations.
+ *
+ * The plugin ships its own .mo files in /languages for all 24 official EU
+ * languages; translate.wordpress.org has no language packs for this plugin,
+ * so the text domain must be loaded explicitly.
+ */
+function wsconv_load_textdomain() {
+	load_plugin_textdomain( 'wind-speed-converter', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+}
+add_action( 'init', 'wsconv_load_textdomain' );
 
 /**
  * Register the widget.

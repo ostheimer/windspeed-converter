@@ -52,3 +52,14 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Block Editor (Gutenberg) Widget | 📋 Geplant |
 | Unit-Tests mit PHPUnit | 📋 Geplant |
 | Playwright E2E-Tests | 📋 Geplant |
+
+### Version 1.4.0 - EU-Übersetzungen & Store-Assets (Juni 2026)
+
+| Aufgabe | Status |
+|---------|--------|
+| Übersetzungen für alle 24 EU-Amtssprachen (.po/.mo, msgfmt-validiert) | ✅ Erledigt |
+| POT-Template (languages/wind-speed-converter.pot) | ✅ Erledigt |
+| load_plugin_textdomain() wieder eingebaut (keine Language Packs auf translate.wordpress.org → gebündelte .mo luden nie) | ✅ Erledigt |
+| Neue Store-Assets in .wordpress-org/: Icon 128/256, Banner 772+1544 (Retina), Screenshot-1 | ✅ Erledigt |
+| deploy-to-svn.sh synct .wordpress-org/ → SVN assets/ | ✅ Erledigt |
+| SVN-Upload v1.4.0 (trunk + tag + assets) | ⏳ Ausstehend |

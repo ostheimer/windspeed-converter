@@ -19,3 +19,5 @@ docker-compose.yml
 
 # Build artifacts
 *.zip
+
+.playwright-mcp/

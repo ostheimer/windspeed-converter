@@ -49,6 +49,13 @@ fi
 
 eval rsync -av --delete ${EXCLUDE_ARGS} "${GITHUB_DIR}/" "${SVN_DIR}/trunk/"
 
+# Sync wordpress.org assets (banner, icon, screenshots) from .wordpress-org/
+if [ -d "${GITHUB_DIR}/.wordpress-org" ]; then
+    echo ">> Syncing .wordpress-org/ to assets/..."
+    rsync -av --include='banner-*.png' --include='icon-*.png' --include='screenshot-*.png' \
+        --exclude='*' "${GITHUB_DIR}/.wordpress-org/" "${SVN_DIR}/assets/"
+fi
+
 # Check for changes
 cd "${SVN_DIR}"
 

@@ -3,6 +3,9 @@
 .gitignore
 .distignore
 .github
+.wordpress-org
+.playwright-mcp
+.claude
 deploy-to-svn.sh
 docker-compose.yml
 README.md
