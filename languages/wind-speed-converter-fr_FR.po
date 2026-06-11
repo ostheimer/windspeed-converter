@@ -62,4 +62,4 @@ msgstr "Titre"
 
 #: widget.php:134
 msgid "Hide Link?"
-msgstr "Masquer le lien ?"
+msgstr "Masquer le lien ?"

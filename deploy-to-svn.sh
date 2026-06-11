@@ -52,18 +52,24 @@ eval rsync -av --delete ${EXCLUDE_ARGS} "${GITHUB_DIR}/" "${SVN_DIR}/trunk/"
 # Sync wordpress.org assets (banner, icon, screenshots) from .wordpress-org/
 if [ -d "${GITHUB_DIR}/.wordpress-org" ]; then
     echo ">> Syncing .wordpress-org/ to assets/..."
-    rsync -av --include='banner-*.png' --include='icon-*.png' --include='screenshot-*.png' \
+    rsync -av --include='banner-*.png' --include='icon-*.png' --include='icon.svg' --include='screenshot-*.png' \
         --exclude='*' "${GITHUB_DIR}/.wordpress-org/" "${SVN_DIR}/assets/"
 fi
 
 # Check for changes
 cd "${SVN_DIR}"
 
-# Add new files
-svn status trunk/ | grep '^?' | awk '{print $2}' | xargs -I {} svn add {} 2>/dev/null || true
+# Add new files (trunk/ and assets/)
+svn status | grep '^?' | awk '{print $2}' | xargs -I {} svn add {} 2>/dev/null || true
 
 # Remove deleted files
-svn status trunk/ | grep '^!' | awk '{print $2}' | xargs -I {} svn rm {} 2>/dev/null || true
+svn status | grep '^!' | awk '{print $2}' | xargs -I {} svn rm {} 2>/dev/null || true
+
+# Ensure correct MIME types on assets so wordpress.org serves them properly
+if [ -d "assets" ]; then
+    find assets -name '*.png' -print0 | xargs -0 -I {} svn propset svn:mime-type image/png {} 2>/dev/null || true
+    [ -f "assets/icon.svg" ] && svn propset svn:mime-type image/svg+xml assets/icon.svg 2>/dev/null || true
+fi
 
 echo ""
 echo ">> SVN status:"

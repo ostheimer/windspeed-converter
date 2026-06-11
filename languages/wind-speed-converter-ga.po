@@ -54,7 +54,7 @@ msgstr "Ostheimer Dearadh Gréasáin agus SEO"
 
 #: widget.php:24
 msgid "Windspeed Converter Widget"
-msgstr "Giuirléid tiontaire luais gaoithe"
+msgstr "Giuirléid tiontaire luas gaoithe"
 
 #: widget.php:102
 msgid "Title"

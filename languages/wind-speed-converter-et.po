@@ -54,7 +54,7 @@ msgstr "Ostheimer veebidisain ja SEO"
 
 #: widget.php:24
 msgid "Windspeed Converter Widget"
-msgstr "Tuule kiiruse teisendaja moodul"
+msgstr "Tuulekiiruse teisendaja moodul"
 
 #: widget.php:102
 msgid "Title"

@@ -2,7 +2,7 @@
 Contributors: helpstring
 Tags: windspeed, converter, beaufort, knots, weather
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: 1.4.0
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -56,6 +56,7 @@ Yes, use the shortcode attributes to disable specific fields. For example: `[win
 == Changelog ==
 
 = 1.4.0 =
+* Tested up to WordPress 7.0
 * Added translations for all 24 official EU languages (Bulgarian, Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish)
 * Added .pot translation template for translators
 * Re-added load_plugin_textdomain() so the bundled translations are actually loaded (required because no language packs exist on translate.wordpress.org)
