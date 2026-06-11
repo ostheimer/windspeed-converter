@@ -4,7 +4,7 @@
  * Plugin URI:  https://www.ostheimer.at/
  * Description: Insert a wind speed converter via widget or shortcode. The user enters one of five values (km/h, mph, Beaufort, m/s, knots) and the plugin calculates the others.
  * Author:      Andreas Ostheimer
- * Version:     1.4.0
+ * Version:     1.5.0
  * Author URI:  https://www.ostheimer.at
  * License:     GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'WSCONV_PLUGIN_FILE', __FILE__ );
 define( 'WSCONV_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'WSCONV_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-define( 'WSCONV_VERSION', '1.4.0' );
+define( 'WSCONV_VERSION', '1.5.0' );
 
 /**
  * Load the bundled translations.
@@ -51,6 +51,14 @@ function wsconv_load_textdomain() {
 add_action( 'init', 'wsconv_load_textdomain' );
 
 /**
+ * Show the one-time onboarding notice after activation.
+ */
+function wsconv_activate() {
+	update_option( 'wsconv_show_activation_notice', '1' );
+}
+register_activation_hook( __FILE__, 'wsconv_activate' );
+
+/**
  * Register the widget.
  */
 function wsconv_widgets_init() {
@@ -60,10 +68,59 @@ function wsconv_widgets_init() {
 add_action( 'widgets_init', 'wsconv_widgets_init' );
 
 /**
+ * Register shared assets so both the frontend and the block editor can use them.
+ */
+function wsconv_register_assets() {
+	wp_register_style( 'wsconv-css', WSCONV_PLUGIN_URL . 'windspeed-converter.css', array(), WSCONV_VERSION );
+}
+add_action( 'init', 'wsconv_register_assets', 5 );
+
+/**
+ * Register the Gutenberg block (server-rendered, no build step).
+ */
+function wsconv_register_block() {
+	wp_register_script(
+		'wsconv-block-editor',
+		WSCONV_PLUGIN_URL . 'block/block.js',
+		array( 'wp-blocks', 'wp-element', 'wp-i18n', 'wp-block-editor', 'wp-components', 'wp-server-side-render' ),
+		WSCONV_VERSION,
+		true
+	);
+	wp_set_script_translations( 'wsconv-block-editor', 'wind-speed-converter', WSCONV_PLUGIN_DIR . 'languages' );
+
+	register_block_type(
+		WSCONV_PLUGIN_DIR . 'block',
+		array(
+			'render_callback' => 'wsconv_render_block',
+		)
+	);
+}
+add_action( 'init', 'wsconv_register_block' );
+
+/**
+ * Render callback for the block: maps boolean attributes onto the
+ * shortcode renderer so block, shortcode and widget share one output path.
+ *
+ * @param array $attributes Block attributes.
+ * @return string Rendered HTML output.
+ */
+function wsconv_render_block( $attributes ) {
+	$atts = array();
+	foreach ( array( 'kmh', 'mph', 'beaufort', 'ms', 'knots', 'link' ) as $field ) {
+		$enabled        = ! isset( $attributes[ $field ] ) || false !== $attributes[ $field ];
+		$atts[ $field ] = $enabled ? $field : 'false';
+	}
+
+	ob_start();
+	wsconv_display_shortcode( $atts );
+	return ob_get_clean();
+}
+
+/**
  * Enqueue plugin styles.
  */
 function wsconv_enqueue_styles() {
-	wp_enqueue_style( 'wsconv-css', WSCONV_PLUGIN_URL . 'windspeed-converter.css', array(), WSCONV_VERSION );
+	wp_enqueue_style( 'wsconv-css' );
 }
 add_action( 'wp_enqueue_scripts', 'wsconv_enqueue_styles' );
 
@@ -166,4 +223,9 @@ function wsconv_display_shortcode( $atts ) {
 
 	echo '</form>';
 	echo '</div>';
+}
+
+// Admin UI: guide page, plugin list links and activation notice.
+if ( is_admin() ) {
+	require_once WSCONV_PLUGIN_DIR . 'admin.php';
 }

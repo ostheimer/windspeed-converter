@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Pealkiri"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Peida link?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Kuidas kasutada"
+
+msgid "How to use"
+msgstr "Kuidas kasutada"
+
+msgid "Documentation"
+msgstr "Dokumentatsioon"
+
+msgid "Support"
+msgstr "Tugi"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter on valmis."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Lisa teisendaja mis tahes lehele ploki „Windspeed Converter“, lühikoodi %s või mooduli abil."
+
+msgid "Open the guide"
+msgstr "Ava juhend"
+
+msgid "Dismiss"
+msgstr "Peida"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Külastaja sisestab ühe tuulekiiruse väärtuse ja teisendaja arvutab kohe ülejäänud."
+
+msgid "Block editor"
+msgstr "Plokiredaktor"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Otsi plokisisestajast „Windspeed Converter“ ja lisa plokk. Külgriba plokisätetest saad üksikuid välju kuvada või peita."
+
+msgid "Shortcode"
+msgstr "Lühikood"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Lisa teisendaja postitusse või lehele selle lühikoodiga:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Vaikimisi kuvatakse kõik väljad. Üksikuid välju saab atribuutidega peita:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Peidab välja „%s“"
+
+msgid "Hides the backlink"
+msgstr "Peidab tagasilingi"
+
+msgid "Attributes can be combined:"
+msgstr "Atribuute saab kombineerida:"
+
+msgid "Widget"
+msgstr "Moodul"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Lisa moodul „%s“ menüüst Välimus → Moodulid, määra pealkiri ja märgi soovitud väljad."
+
+msgid "Languages"
+msgstr "Keeled"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Kaasas on tõlked kõigisse 24 ELi ametlikku keelde. Teisendaja järgib saidi keelt, mis on määratud menüüs Seaded → Üldine."
+
+msgid "Need help?"
+msgstr "Vajad abi?"
+
+msgid "Support forum"
+msgstr "Toe foorum"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Plugina leht WordPress.org-is"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Tuulekiiruse teisendaja: külastaja sisestab ühe väärtuse (km/h, mph, Beaufort, m/s või sõlmed) ja saab kohe ülejäänud."
+
+msgid "Fields"
+msgstr "Väljad"
+
+msgid "Show backlink"
+msgstr "Kuva tagasilink"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Lase külastajatel teisendada tuulekiirusi km/h, mph, Beauforti, m/s ja sõlmede vahel."

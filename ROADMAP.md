@@ -1,6 +1,6 @@
 # Roadmap - Windspeed Converter WordPress Plugin
 
-## Status: v1.4.0 released - SVN-Commit erfolgt, warte auf Aktualisierung der Plugin-Seite
+## Status: v1.4.0 live auf WordPress.org - v1.5.0 fertig entwickelt, SVN-Release ausstehend
 
 ### Version 1.3.0 - WordPress.org Review-Fixes (Februar 2026)
 
@@ -48,10 +48,11 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Feature | Status |
 |---------|--------|
 | Mehrsprachigkeit ausbauen (weitere Sprachen) | ✅ Erledigt (v1.4.0, alle 24 EU-Amtssprachen) |
+| Block Editor (Gutenberg) Widget | ✅ Erledigt (v1.5.0) |
+| Playwright E2E-Tests | ✅ Erledigt (v1.5.0, tests/) |
 | Moderne UI/UX-Überarbeitung | 📋 Geplant |
-| Block Editor (Gutenberg) Widget | 📋 Geplant |
 | Unit-Tests mit PHPUnit | 📋 Geplant |
-| Playwright E2E-Tests | 📋 Geplant |
+| Übersetzungen ins translate.wordpress.org-System bringen (Language Packs, Polyglots-Prozess) | 📋 Geplant |
 
 ### Version 1.4.0 - EU-Übersetzungen & Store-Assets (Juni 2026)
 
@@ -68,5 +69,24 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Branch in main gemergt und zu GitHub gepusht | ✅ Erledigt |
 | SVN-Commit v1.4.0 trunk + assets | ✅ Erledigt (Revision 3569378) |
 | SVN-Tag 1.4.0 | ✅ Erledigt (Revision 3569379) |
-| Release auf wordpress.org verifizieren (1.4.0 live, Assets, Sprachen im ZIP) | ⏳ Ausstehend (SVN bestätigt, Plugin-Verzeichnis aktualisiert sich in wenigen Minuten) |
+| Release auf wordpress.org verifizieren | ✅ Erledigt (Verzeichnis liefert 1.4.0 aus, Tested 7.0) |
 | Docker-Testumgebung abräumen (docker compose down -v), Worktree + Branch löschen | ⏳ Ausstehend |
+
+### Version 1.5.0 - Onboarding & Gutenberg-Block (Juni 2026)
+
+Hintergrund: Nach der Aktivierung gab es im Backend keinerlei Hinweise zur Verwendung (kein Settings-Link, keine Doku, Shortcode nicht auffindbar).
+
+| Aufgabe | Status |
+|---------|--------|
+| Gutenberg-Block mit Feld-Toggles (block.json + plain JS, Server-Side-Render, ohne Build-Step) | ✅ Erledigt |
+| Hilfeseite unter Werkzeuge → Windspeed Converter (Block, Shortcode-Attribute, Widget, Sprachen, Support) | ✅ Erledigt |
+| Einmaliger Aktivierungshinweis mit Link zur Hilfeseite (dismissbar, Nonce-gesichert) | ✅ Erledigt |
+| Pluginlisten-Links: „How to use" (Action) + „Documentation"/„Support" (Row-Meta) | ✅ Erledigt |
+| Widget-Beschreibung im Widget-Picker | ✅ Erledigt |
+| Bugfix: Widget-Backlink wurde nie angezeigt (invertierte Bedingung) | ✅ Erledigt |
+| 29 neue Strings in alle 24 EU-Amtssprachen übersetzt (.po/.mo, msgfmt-validiert) | ✅ Erledigt |
+| JSON-Übersetzungen für Block-Editor-Strings (wp_set_script_translations) | ✅ Erledigt |
+| Playwright-E2E-Tests (tests/, 14 Tests: Konvertierung, Attribute, Block, Admin-Onboarding) | ✅ Erledigt (14/14 bestanden) |
+| Manuell verifiziert in Docker (WP 7.0): Notice, Hilfeseite (en/de), Block-Editor inkl. deutscher Editor-Strings | ✅ Erledigt |
+| Plugin Check: keine neuen Fehler/Warnungen (nur bekannte, akzeptierte load_plugin_textdomain-Warnung) | ✅ Erledigt |
+| SVN-Release v1.5.0 (deploy-to-svn.sh, trunk + tag + ggf. neuer Screenshot) | ⏳ Ausstehend |

@@ -1,0 +1,34 @@
+{
+	"translation-revision-date": "2026-06-11 23:50+0200",
+	"generator": "windspeed-converter i18n script",
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"lang": "bg_BG"
+			},
+			"Fields": [
+				"Полета"
+			],
+			"Show backlink": [
+				"Показване на обратната връзка"
+			],
+			"Km/h": [
+				"Км/ч"
+			],
+			"Mph": [
+				"Мили/ч"
+			],
+			"Beaufort": [
+				"Бофорт"
+			],
+			"M/s": [
+				"М/с"
+			],
+			"Knots": [
+				"Възли"
+			]
+		}
+	}
+}

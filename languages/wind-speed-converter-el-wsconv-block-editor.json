@@ -1,0 +1,34 @@
+{
+	"translation-revision-date": "2026-06-11 23:50+0200",
+	"generator": "windspeed-converter i18n script",
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"lang": "el"
+			},
+			"Fields": [
+				"Πεδία"
+			],
+			"Show backlink": [
+				"Εμφάνιση συνδέσμου επιστροφής"
+			],
+			"Km/h": [
+				"Χλμ/ώρα"
+			],
+			"Mph": [
+				"Μίλια/ώρα"
+			],
+			"Beaufort": [
+				"Μποφόρ"
+			],
+			"M/s": [
+				"M/s"
+			],
+			"Knots": [
+				"Κόμβοι"
+			]
+		}
+	}
+}

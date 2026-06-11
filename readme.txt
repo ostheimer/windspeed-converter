@@ -3,7 +3,7 @@ Contributors: helpstring
 Tags: windspeed, converter, beaufort, knots, weather
 Requires at least: 5.0
 Tested up to: 7.0
-Stable tag: 1.4.0
+Stable tag: 1.5.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,6 +13,10 @@ The Windspeed Converter gives you the possibility to insert a converter via widg
 == Description ==
 
 The user has to write one of five values and the plugin calculates the others. Supported units: km/h, mph, Beaufort, m/s, and knots.
+
+#### Block
+* Search for "Windspeed Converter" in the block editor and add the block
+* Show or hide individual fields via the block settings in the sidebar
 
 #### Shortcode
 * You can add the Windspeed Converter via shortcode `[windspeed_converter]`
@@ -32,8 +36,8 @@ See the [Windspeed Converter site](https://www.ostheimer.at/wordpress-plugins/wi
 
 1. Upload the "wind-speed-converter" folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Add the Windspeed Converter to your widget enabled space
-4. If you need to insert it in a post or page, use the shortcode `[windspeed_converter]`
+3. Add the "Windspeed Converter" block to a post or page, use the shortcode `[windspeed_converter]`, or place the widget in a sidebar
+4. A short guide with all options is available under Tools → Windspeed Converter
 
 == Screenshots ==
 
@@ -47,13 +51,22 @@ Very likely, yes. Translations for all 24 official EU languages are bundled with
 
 = How can I display the Windspeed Converter on the Frontend? =
 
-You can add the shortcode `[windspeed_converter]` in a post or page so that the Windspeed Converter will be displayed on that page.
+Add the "Windspeed Converter" block in the block editor, or use the shortcode `[windspeed_converter]` in a post or page. A guide with all options is available in your admin under Tools → Windspeed Converter.
 
 = Can I hide certain fields? =
 
 Yes, use the shortcode attributes to disable specific fields. For example: `[windspeed_converter beaufort="false" ms="false"]`
 
 == Changelog ==
+
+= 1.5.0 =
+* Added a "Windspeed Converter" block for the block editor with per-field toggles
+* Added a guide page (Tools → Windspeed Converter) explaining block, shortcode attributes and widget
+* Added a one-time activation notice linking to the guide
+* Added "How to use", "Documentation" and "Support" links on the Plugins screen
+* Added a widget description in the widget picker
+* Fixed: the widget backlink option never rendered the backlink
+* All new strings are translated into the 24 official EU languages
 
 = 1.4.0 =
 * Tested up to WordPress 7.0

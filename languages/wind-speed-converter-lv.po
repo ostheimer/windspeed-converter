@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Virsraksts"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Slēpt saiti?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Kā lietot"
+
+msgid "How to use"
+msgstr "Kā lietot"
+
+msgid "Documentation"
+msgstr "Dokumentācija"
+
+msgid "Support"
+msgstr "Atbalsts"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter ir gatavs."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Pievienojiet pārveidotāju jebkurai lapai ar bloku „Windspeed Converter“, īskodu %s vai logrīku."
+
+msgid "Open the guide"
+msgstr "Atvērt pamācību"
+
+msgid "Dismiss"
+msgstr "Paslēpt"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Apmeklētāji ievada vienu vēja ātruma vērtību, un pārveidotājs uzreiz aprēķina pārējās."
+
+msgid "Block editor"
+msgstr "Bloku redaktors"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Bloku ievietotājā sameklējiet „Windspeed Converter“ un pievienojiet bloku. Sānjoslas bloka iestatījumos var rādīt vai paslēpt atsevišķus laukus."
+
+msgid "Shortcode"
+msgstr "Īskods"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Ievietojiet pārveidotāju rakstā vai lapā ar šo īskodu:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Pēc noklusējuma tiek rādīti visi lauki. Atsevišķus laukus paslēpiet ar atribūtiem:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Paslēpj lauku „%s“"
+
+msgid "Hides the backlink"
+msgstr "Paslēpj atpakaļsaiti"
+
+msgid "Attributes can be combined:"
+msgstr "Atribūtus var kombinēt:"
+
+msgid "Widget"
+msgstr "Logrīks"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Pievienojiet logrīku „%s“ sadaļā Izskats → Logrīki, norādiet virsrakstu un atzīmējiet vajadzīgos laukus."
+
+msgid "Languages"
+msgstr "Valodas"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Iekļauti tulkojumi visās 24 oficiālajās ES valodās. Pārveidotājs izmanto vietnes valodu, kas iestatīta sadaļā Iestatījumi → Vispārīgi."
+
+msgid "Need help?"
+msgstr "Nepieciešama palīdzība?"
+
+msgid "Support forum"
+msgstr "Atbalsta forums"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Spraudņa lapa vietnē WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Vēja ātruma pārveidotājs: apmeklētāji ievada vienu vērtību (km/h, mph, Boforta balles, m/s vai mezgli) un uzreiz iegūst pārējās."
+
+msgid "Fields"
+msgstr "Lauki"
+
+msgid "Show backlink"
+msgstr "Rādīt atpakaļsaiti"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Ļaujiet apmeklētājiem pārvērst vēja ātrumu starp km/h, mph, Bofortu, m/s un mezgliem."

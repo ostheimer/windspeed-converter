@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wind-speed-converter/converter",
+	"title": "Windspeed Converter",
+	"category": "widgets",
+	"icon": "cloud",
+	"description": "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots.",
+	"keywords": [ "wind", "speed", "beaufort", "knots", "converter" ],
+	"textdomain": "wind-speed-converter",
+	"attributes": {
+		"kmh": {
+			"type": "boolean",
+			"default": true
+		},
+		"mph": {
+			"type": "boolean",
+			"default": true
+		},
+		"beaufort": {
+			"type": "boolean",
+			"default": true
+		},
+		"ms": {
+			"type": "boolean",
+			"default": true
+		},
+		"knots": {
+			"type": "boolean",
+			"default": true
+		},
+		"link": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"html": false,
+		"multiple": false
+	},
+	"example": {},
+	"editorScript": "wsconv-block-editor",
+	"style": "wsconv-css"
+}

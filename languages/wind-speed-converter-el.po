@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Τίτλος"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Απόκρυψη συνδέσμου;"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Οδηγίες χρήσης"
+
+msgid "How to use"
+msgstr "Οδηγίες χρήσης"
+
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+msgid "Support"
+msgstr "Υποστήριξη"
+
+msgid "Windspeed Converter is ready."
+msgstr "Το Windspeed Converter είναι έτοιμο."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Προσθέστε τον μετατροπέα σε οποιαδήποτε σελίδα με το μπλοκ «Windspeed Converter», με τον σύντομο κωδικό %s ή με τη μικροεφαρμογή."
+
+msgid "Open the guide"
+msgstr "Άνοιγμα οδηγού"
+
+msgid "Dismiss"
+msgstr "Απόκρυψη"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Οι επισκέπτες εισάγουν μία τιμή ταχύτητας ανέμου και ο μετατροπέας υπολογίζει αμέσως τις υπόλοιπες."
+
+msgid "Block editor"
+msgstr "Επεξεργαστής μπλοκ"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Αναζητήστε «Windspeed Converter» στον εισαγωγέα μπλοκ και προσθέστε το μπλοκ. Από τις ρυθμίσεις του μπλοκ στην πλαϊνή στήλη εμφανίζετε ή αποκρύπτετε μεμονωμένα πεδία."
+
+msgid "Shortcode"
+msgstr "Σύντομος κωδικός"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Εισαγάγετε τον μετατροπέα σε άρθρο ή σελίδα με αυτόν τον σύντομο κωδικό:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Από προεπιλογή εμφανίζονται όλα τα πεδία. Αποκρύψτε μεμονωμένα πεδία με χαρακτηριστικά:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Αποκρύπτει το πεδίο «%s»"
+
+msgid "Hides the backlink"
+msgstr "Αποκρύπτει τον σύνδεσμο επιστροφής"
+
+msgid "Attributes can be combined:"
+msgstr "Τα χαρακτηριστικά μπορούν να συνδυαστούν:"
+
+msgid "Widget"
+msgstr "Μικροεφαρμογή"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Προσθέστε τη μικροεφαρμογή «%s» από Εμφάνιση → Μικροεφαρμογές, ορίστε έναν τίτλο και επιλέξτε τα πεδία που θέλετε."
+
+msgid "Languages"
+msgstr "Γλώσσες"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Περιλαμβάνονται μεταφράσεις και στις 24 επίσημες γλώσσες της ΕΕ. Ο μετατροπέας ακολουθεί τη γλώσσα του ιστότοπου στις Ρυθμίσεις → Γενικά."
+
+msgid "Need help?"
+msgstr "Χρειάζεστε βοήθεια;"
+
+msgid "Support forum"
+msgstr "Φόρουμ υποστήριξης"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Σελίδα του προσθέτου στο WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Μετατροπέας ταχύτητας ανέμου: οι επισκέπτες εισάγουν μία τιμή (km/h, mph, Μποφόρ, m/s ή κόμβοι) και λαμβάνουν αμέσως τις υπόλοιπες."
+
+msgid "Fields"
+msgstr "Πεδία"
+
+msgid "Show backlink"
+msgstr "Εμφάνιση συνδέσμου επιστροφής"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Επιτρέψτε στους επισκέπτες να μετατρέπουν ταχύτητες ανέμου μεταξύ km/h, mph, Μποφόρ, m/s και κόμβων."

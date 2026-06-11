@@ -1,0 +1,34 @@
+{
+	"translation-revision-date": "2026-06-11 23:50+0200",
+	"generator": "windspeed-converter i18n script",
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"lang": "fi"
+			},
+			"Fields": [
+				"Kentät"
+			],
+			"Show backlink": [
+				"Näytä paluulinkki"
+			],
+			"Km/h": [
+				"Km/h"
+			],
+			"Mph": [
+				"Mph"
+			],
+			"Beaufort": [
+				"Bofori"
+			],
+			"M/s": [
+				"M/s"
+			],
+			"Knots": [
+				"Solmut"
+			]
+		}
+	}
+}

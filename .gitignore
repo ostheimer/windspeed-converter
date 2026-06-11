@@ -14,6 +14,10 @@ Thumbs.db
 # Node (falls später benötigt)
 node_modules/
 
+# Playwright
+tests/test-results/
+tests/playwright-report/
+
 # Docker
 docker-compose.yml
 

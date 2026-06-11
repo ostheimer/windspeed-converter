@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Titlu"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Aħbi l-link?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Kif tużah"
+
+msgid "How to use"
+msgstr "Kif tużah"
+
+msgid "Documentation"
+msgstr "Dokumentazzjoni"
+
+msgid "Support"
+msgstr "Appoġġ"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter huwa lest."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Żid il-konvertitur ma' kwalunkwe paġna bil-blokk “Windspeed Converter”, bix-shortcode %s jew bil-widget."
+
+msgid "Open the guide"
+msgstr "Iftaħ il-gwida"
+
+msgid "Dismiss"
+msgstr "Aħbi"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Il-viżitaturi jdaħħlu valur wieħed tal-veloċità tar-riħ u l-konvertitur jikkalkula immedjatament l-oħrajn."
+
+msgid "Block editor"
+msgstr "Editur tal-blokki"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Fittex “Windspeed Converter” fl-inseritur tal-blokki u żid il-blokk. Uża s-settings tal-blokk fil-bar tal-ġenb biex turi jew taħbi oqsma individwali."
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Daħħal il-konvertitur f'artiklu jew paġna b'dan ix-shortcode:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "B'mod awtomatiku jintwerew l-oqsma kollha. Aħbi oqsma individwali bl-attributi:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Jaħbi l-qasam “%s”"
+
+msgid "Hides the backlink"
+msgstr "Jaħbi l-link tar-ritorn"
+
+msgid "Attributes can be combined:"
+msgstr "L-attributi jistgħu jiġu kkombinati:"
+
+msgid "Widget"
+msgstr "Widget"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Żid il-widget “%s” taħt Dehra → Widgets, agħti titlu u mmarka l-oqsma li trid."
+
+msgid "Languages"
+msgstr "Lingwi"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Inklużi traduzzjonijiet fl-24 lingwa uffiċjali kollha tal-UE. Il-konvertitur isegwi l-lingwa tas-sit issettjata taħt Settings → Ġenerali."
+
+msgid "Need help?"
+msgstr "Teħtieġ għajnuna?"
+
+msgid "Support forum"
+msgstr "Forum tal-appoġġ"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Paġna tal-plugin fuq WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Konvertitur tal-veloċità tar-riħ: il-viżitaturi jdaħħlu valur wieħed (km/h, mph, Beaufort, m/s jew għoqiedi) u jiksbu immedjatament l-oħrajn."
+
+msgid "Fields"
+msgstr "Oqsma"
+
+msgid "Show backlink"
+msgstr "Uri l-link tar-ritorn"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Ħalli l-viżitaturi jikkonvertu l-veloċità tar-riħ bejn km/h, mph, Beaufort, m/s u għoqiedi."

@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Заглавие"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Скриване на връзката?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Как се използва"
+
+msgid "How to use"
+msgstr "Как се използва"
+
+msgid "Documentation"
+msgstr "Документация"
+
+msgid "Support"
+msgstr "Поддръжка"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter е готов."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Добавете конвертора на която и да е страница с блока „Windspeed Converter“, с краткия код %s или с джаджата."
+
+msgid "Open the guide"
+msgstr "Отворете ръководството"
+
+msgid "Dismiss"
+msgstr "Скрий"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Посетителите въвеждат една стойност на скоростта на вятъра, а конверторът веднага изчислява останалите."
+
+msgid "Block editor"
+msgstr "Блоков редактор"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Потърсете „Windspeed Converter“ в инструмента за вмъкване на блокове и добавете блока. Чрез настройките на блока в страничната лента можете да показвате или скривате отделни полета."
+
+msgid "Shortcode"
+msgstr "Кратък код"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Вмъкнете конвертора в публикация или страница с този кратък код:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "По подразбиране се показват всички полета. Скрийте отделни полета с атрибути:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Скрива полето „%s“"
+
+msgid "Hides the backlink"
+msgstr "Скрива обратната връзка"
+
+msgid "Attributes can be combined:"
+msgstr "Атрибутите могат да се комбинират:"
+
+msgid "Widget"
+msgstr "Джаджа"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Добавете джаджата „%s“ от Външен вид → Джаджи, задайте заглавие и отбележете желаните полета."
+
+msgid "Languages"
+msgstr "Езици"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Включени са преводи на всичките 24 официални езика на ЕС. Конверторът следва езика на сайта от Настройки → Общи."
+
+msgid "Need help?"
+msgstr "Нужда от помощ?"
+
+msgid "Support forum"
+msgstr "Форум за поддръжка"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Страница на разширението в WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Конвертор на скоростта на вятъра: посетителите въвеждат една стойност (km/h, mph, Бофорт, m/s или възли) и веднага получават останалите."
+
+msgid "Fields"
+msgstr "Полета"
+
+msgid "Show backlink"
+msgstr "Показване на обратната връзка"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Позволете на посетителите да преобразуват скорост на вятъра между km/h, mph, Бофорт, m/s и възли."

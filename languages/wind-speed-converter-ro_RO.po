@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Titlu"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Ascunde linkul?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Cum se folosește"
+
+msgid "How to use"
+msgstr "Cum se folosește"
+
+msgid "Documentation"
+msgstr "Documentație"
+
+msgid "Support"
+msgstr "Suport"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter este pregătit."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Adaugă convertorul în orice pagină cu blocul „Windspeed Converter”, cu scurtcodul %s sau cu piesa."
+
+msgid "Open the guide"
+msgstr "Deschide ghidul"
+
+msgid "Dismiss"
+msgstr "Respinge"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Vizitatorii introduc o singură valoare a vitezei vântului, iar convertorul le calculează imediat pe celelalte."
+
+msgid "Block editor"
+msgstr "Editor de blocuri"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Caută „Windspeed Converter” în inserătorul de blocuri și adaugă blocul. Folosește setările blocului din bara laterală pentru a afișa sau ascunde câmpuri individuale."
+
+msgid "Shortcode"
+msgstr "Scurtcod"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Inserează convertorul într-un articol sau într-o pagină cu acest scurtcod:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Implicit sunt afișate toate câmpurile. Ascunde câmpuri individuale cu atribute:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Ascunde câmpul „%s”"
+
+msgid "Hides the backlink"
+msgstr "Ascunde legătura de retur"
+
+msgid "Attributes can be combined:"
+msgstr "Atributele pot fi combinate:"
+
+msgid "Widget"
+msgstr "Piesă"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Adaugă piesa „%s” din Aspect → Piese, stabilește un titlu și bifează câmpurile dorite."
+
+msgid "Languages"
+msgstr "Limbi"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Sunt incluse traduceri în toate cele 24 de limbi oficiale ale UE. Convertorul urmează limba sitului stabilită în Setări → Generale."
+
+msgid "Need help?"
+msgstr "Ai nevoie de ajutor?"
+
+msgid "Support forum"
+msgstr "Forum de suport"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Pagina modulului pe WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Convertor de viteză a vântului: vizitatorii introduc o valoare (km/h, mph, Beaufort, m/s sau noduri) și le primesc imediat pe celelalte."
+
+msgid "Fields"
+msgstr "Câmpuri"
+
+msgid "Show backlink"
+msgstr "Arată legătura de retur"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Permite vizitatorilor să convertească viteza vântului între km/h, mph, Beaufort, m/s și noduri."

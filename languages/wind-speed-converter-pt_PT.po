@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Título"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Ocultar a ligação?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Como utilizar"
+
+msgid "How to use"
+msgstr "Como utilizar"
+
+msgid "Documentation"
+msgstr "Documentação"
+
+msgid "Support"
+msgstr "Suporte"
+
+msgid "Windspeed Converter is ready."
+msgstr "O Windspeed Converter está pronto."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Adicione o conversor a qualquer página com o bloco “Windspeed Converter”, o shortcode %s ou o widget."
+
+msgid "Open the guide"
+msgstr "Abrir o guia"
+
+msgid "Dismiss"
+msgstr "Dispensar"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Os visitantes introduzem um valor de velocidade do vento e o conversor calcula de imediato os restantes."
+
+msgid "Block editor"
+msgstr "Editor de blocos"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Pesquise “Windspeed Converter” no insersor de blocos e adicione o bloco. Use as definições do bloco na barra lateral para mostrar ou ocultar campos individuais."
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Insira o conversor num artigo ou página com este shortcode:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Por predefinição são mostrados todos os campos. Oculte campos individuais com atributos:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Oculta o campo “%s”"
+
+msgid "Hides the backlink"
+msgstr "Oculta a ligação de retorno"
+
+msgid "Attributes can be combined:"
+msgstr "Os atributos podem ser combinados:"
+
+msgid "Widget"
+msgstr "Widget"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Adicione o widget “%s” em Aspeto → Widgets, defina um título e assinale os campos pretendidos."
+
+msgid "Languages"
+msgstr "Idiomas"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Estão incluídas traduções para as 24 línguas oficiais da UE. O conversor segue o idioma do site definido em Definições → Geral."
+
+msgid "Need help?"
+msgstr "Precisa de ajuda?"
+
+msgid "Support forum"
+msgstr "Fórum de suporte"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Página do plugin em WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Conversor de velocidade do vento: os visitantes introduzem um valor (km/h, mph, Beaufort, m/s ou nós) e obtêm de imediato os restantes."
+
+msgid "Fields"
+msgstr "Campos"
+
+msgid "Show backlink"
+msgstr "Mostrar ligação de retorno"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Permita que os visitantes convertam velocidades do vento entre km/h, mph, Beaufort, m/s e nós."

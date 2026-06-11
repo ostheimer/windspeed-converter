@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Teideal"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Folaigh an nasc?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Conas é a úsáid"
+
+msgid "How to use"
+msgstr "Conas é a úsáid"
+
+msgid "Documentation"
+msgstr "Doiciméadúchán"
+
+msgid "Support"
+msgstr "Tacaíocht"
+
+msgid "Windspeed Converter is ready."
+msgstr "Tá Windspeed Converter réidh."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Cuir an tiontaire le leathanach ar bith leis an mbloc “Windspeed Converter”, leis an ngearrchód %s nó leis an ngiuirléid."
+
+msgid "Open the guide"
+msgstr "Oscail an treoir"
+
+msgid "Dismiss"
+msgstr "Folaigh"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Cuireann cuairteoirí luach amháin de luas na gaoithe isteach agus ríomhann an tiontaire na cinn eile láithreach."
+
+msgid "Block editor"
+msgstr "Eagarthóir bloc"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Cuardaigh “Windspeed Converter” san ionsáiteoir bloc agus cuir an bloc leis. Úsáid socruithe an bhloic sa bharra taoibh chun réimsí ar leith a thaispeáint nó a fholú."
+
+msgid "Shortcode"
+msgstr "Gearrchód"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Ionsáigh an tiontaire in alt nó i leathanach leis an ngearrchód seo:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Taispeántar gach réimse de réir réamhshocraithe. Folaigh réimsí ar leith le tréithe:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Folaíonn sé an réimse “%s”"
+
+msgid "Hides the backlink"
+msgstr "Folaíonn sé an cúlnasc"
+
+msgid "Attributes can be combined:"
+msgstr "Is féidir tréithe a chur le chéile:"
+
+msgid "Widget"
+msgstr "Giuirléid"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Cuir an ghiuirléid “%s” leis faoi Dearadh → Giuirléidí, socraigh teideal agus ticeáil na réimsí atá uait."
+
+msgid "Languages"
+msgstr "Teangacha"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Tá aistriúcháin ar fáil i ngach ceann de 24 theanga oifigiúla an AE. Leanann an tiontaire teanga an tsuímh atá socraithe faoi Socruithe → Ginearálta."
+
+msgid "Need help?"
+msgstr "Cabhair de dhíth?"
+
+msgid "Support forum"
+msgstr "Fóram tacaíochta"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Leathanach an bhreiseáin ar WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Tiontaire luas gaoithe: cuireann cuairteoirí luach amháin isteach (km/h, mph, Beaufort, m/s nó muirmhílte) agus faigheann siad na cinn eile láithreach."
+
+msgid "Fields"
+msgstr "Réimsí"
+
+msgid "Show backlink"
+msgstr "Taispeáin an cúlnasc"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Lig do chuairteoirí luasanna gaoithe a thiontú idir km/h, mph, Beaufort, m/s agus muirmhílte."

@@ -1,0 +1,34 @@
+{
+	"translation-revision-date": "2026-06-11 23:50+0200",
+	"generator": "windspeed-converter i18n script",
+	"domain": "messages",
+	"locale_data": {
+		"messages": {
+			"": {
+				"domain": "messages",
+				"lang": "et"
+			},
+			"Fields": [
+				"Väljad"
+			],
+			"Show backlink": [
+				"Kuva tagasilink"
+			],
+			"Km/h": [
+				"Km/h"
+			],
+			"Mph": [
+				"Mph"
+			],
+			"Beaufort": [
+				"Beaufort"
+			],
+			"M/s": [
+				"M/s"
+			],
+			"Knots": [
+				"Sõlmed"
+			]
+		}
+	}
+}

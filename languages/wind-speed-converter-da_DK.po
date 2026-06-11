@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Titel"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Skjul link?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Sådan bruges den"
+
+msgid "How to use"
+msgstr "Sådan bruges den"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter er klar."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Tilføj omregneren på en hvilken som helst side med blokken ”Windspeed Converter”, shortcoden %s eller widgeten."
+
+msgid "Open the guide"
+msgstr "Åbn vejledningen"
+
+msgid "Dismiss"
+msgstr "Afvis"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Besøgende indtaster én vindhastighedsværdi, og omregneren beregner straks de andre."
+
+msgid "Block editor"
+msgstr "Blokeditor"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Søg efter ”Windspeed Converter” i blokindsætteren, og tilføj blokken. Brug blokindstillingerne i sidepanelet til at vise eller skjule enkelte felter."
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Indsæt omregneren i et indlæg eller en side med denne shortcode:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Som standard vises alle felter. Skjul enkelte felter med attributter:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Skjuler feltet ”%s”"
+
+msgid "Hides the backlink"
+msgstr "Skjuler tilbagelinket"
+
+msgid "Attributes can be combined:"
+msgstr "Attributter kan kombineres:"
+
+msgid "Widget"
+msgstr "Widget"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Tilføj widgeten ”%s” under Udseende → Widgets, angiv en titel, og markér de ønskede felter."
+
+msgid "Languages"
+msgstr "Sprog"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Oversættelser til alle 24 officielle EU-sprog er inkluderet. Omregneren følger webstedets sprog under Indstillinger → Generelt."
+
+msgid "Need help?"
+msgstr "Brug for hjælp?"
+
+msgid "Support forum"
+msgstr "Supportforum"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Plugin-side på WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Vindhastighedsomregner: besøgende indtaster én værdi (km/t, mph, Beaufort, m/s eller knob) og får straks de andre."
+
+msgid "Fields"
+msgstr "Felter"
+
+msgid "Show backlink"
+msgstr "Vis tilbagelink"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Lad besøgende omregne vindhastigheder mellem km/t, mph, Beaufort, m/s og knob."

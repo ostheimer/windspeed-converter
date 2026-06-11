@@ -21,7 +21,10 @@ class WSConv_Widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'wsconv_widget',
-			esc_html__( 'Windspeed Converter Widget', 'wind-speed-converter' )
+			esc_html__( 'Windspeed Converter Widget', 'wind-speed-converter' ),
+			array(
+				'description' => __( 'Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others.', 'wind-speed-converter' ),
+			)
 		);
 	}
 
@@ -71,7 +74,8 @@ class WSConv_Widget extends WP_Widget {
 		echo '<div class="field message"></div>';
 		echo '<div class="clear"></div>';
 
-		if ( ! empty( $instance['link'] ) && 1 != $instance['link'] ) {
+		// Show the backlink unless the "Hide Link?" option is ticked.
+		if ( empty( $instance['link'] ) ) {
 			echo '<div id="link"><a href="https://www.ostheimer.at" target="_blank" title="' . esc_attr__( 'Ostheimer Webdesign and SEO', 'wind-speed-converter' ) . '">by Ostheimer.at</a></div>';
 		}
 

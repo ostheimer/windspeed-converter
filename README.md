@@ -22,6 +22,12 @@ Das Plugin enthält Übersetzungen für alle 24 EU-Amtssprachen (Bulgarisch, Dä
 
 ## Verwendung
 
+Nach der Aktivierung erscheint einmalig ein Hinweis mit den Einbau-Möglichkeiten. Eine vollständige Anleitung liegt im Backend unter **Werkzeuge → Windspeed Converter** (auch über den Link „How to use" in der Pluginliste erreichbar).
+
+### Block (Gutenberg)
+
+Im Block-Editor nach „Windspeed Converter" suchen und den Block einfügen. Einzelne Felder und der Backlink lassen sich über die Block-Einstellungen in der Seitenleiste ein- und ausblenden (Live-Vorschau per Server-Side-Rendering).
+
 ### Shortcode
 
 ```
@@ -59,16 +65,21 @@ Das Skript synchronisiert die Plugin-Dateien nach SVN `trunk/`, die Store-Assets
 
 ```
 windspeed-converter/
-├── windspeed-converter.php          # Haupt-Plugin-Datei
+├── windspeed-converter.php          # Haupt-Plugin-Datei (Shortcode, Block-Registrierung)
+├── admin.php                        # Admin-UI: Hilfeseite, Pluginlisten-Links, Aktivierungshinweis
 ├── widget.php                       # Widget-Klasse
+├── block/
+│   ├── block.json                   # Block-Metadaten (Attribute, Assets)
+│   └── block.js                     # Block-Editor-Skript (ohne Build-Step)
 ├── windspeed-converter.js           # Konvertierungslogik (Frontend)
 ├── windspeed-converter-beaufort-scala.js  # Beaufort-Skala-Daten
 ├── windspeed-converter.css          # Plugin-Styles
-├── languages/                       # Übersetzungen (24 EU-Amtssprachen, .po/.mo)
+├── languages/                       # Übersetzungen (24 EU-Amtssprachen)
 │   ├── wind-speed-converter.pot     # Template für Übersetzer
-│   ├── wind-speed-converter-de_DE.po
-│   ├── wind-speed-converter-de_DE.mo
+│   ├── wind-speed-converter-de_DE.po/.mo
+│   ├── wind-speed-converter-de_DE-wsconv-block-editor.json  # Editor-Strings
 │   └── ...                          # weitere Sprachen (bg, cs, da, el, es, ...)
+├── tests/                           # Playwright-E2E-Tests (siehe tests/README.md)
 ├── .wordpress-org/                  # Store-Assets (Icon, Banner, Screenshot)
 ├── readme.txt                       # WordPress.org Plugin-Readme
 ├── LICENSE                          # GPLv2 Lizenz
@@ -77,6 +88,10 @@ windspeed-converter/
 ├── .distignore                      # Ausschlüsse für SVN-Deploy
 └── .gitignore
 ```
+
+### Tests
+
+Playwright-E2E-Tests liegen unter `tests/` und laufen gegen die lokale Docker-Testumgebung. Details und alle Testszenarien: [tests/README.md](tests/README.md).
 
 ## Lizenz
 

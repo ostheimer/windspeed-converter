@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Cím"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Hivatkozás elrejtése?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Használati útmutató"
+
+msgid "How to use"
+msgstr "Használati útmutató"
+
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+msgid "Support"
+msgstr "Támogatás"
+
+msgid "Windspeed Converter is ready."
+msgstr "A Windspeed Converter készen áll."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Add hozzá az átváltót bármelyik oldalhoz a „Windspeed Converter” blokkal, a(z) %s rövidkóddal vagy a widgettel."
+
+msgid "Open the guide"
+msgstr "Útmutató megnyitása"
+
+msgid "Dismiss"
+msgstr "Elrejtés"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "A látogatók egy szélsebesség-értéket adnak meg, az átváltó pedig azonnal kiszámolja a többit."
+
+msgid "Block editor"
+msgstr "Blokkszerkesztő"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "Keress rá a „Windspeed Converter” kifejezésre a blokkbeszúróban, és add hozzá a blokkot. Az oldalsávban lévő blokkbeállításokkal egyes mezők megjeleníthetők vagy elrejthetők."
+
+msgid "Shortcode"
+msgstr "Rövidkód"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Szúrd be az átváltót egy bejegyzésbe vagy oldalra ezzel a rövidkóddal:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Alapértelmezés szerint minden mező megjelenik. Az egyes mezők attribútumokkal rejthetők el:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Elrejti a(z) „%s” mezőt"
+
+msgid "Hides the backlink"
+msgstr "Elrejti a visszamutató hivatkozást"
+
+msgid "Attributes can be combined:"
+msgstr "Az attribútumok kombinálhatók:"
+
+msgid "Widget"
+msgstr "Widget"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Add hozzá a(z) „%s” widgetet a Megjelenés → Widgetek alatt, adj meg egy címet, és jelöld be a kívánt mezőket."
+
+msgid "Languages"
+msgstr "Nyelvek"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "A bővítmény az EU mind a 24 hivatalos nyelvére tartalmaz fordítást. Az átváltó a Beállítások → Általános alatt megadott honlapnyelvet követi."
+
+msgid "Need help?"
+msgstr "Segítségre van szükséged?"
+
+msgid "Support forum"
+msgstr "Támogatási fórum"
+
+msgid "Plugin page on WordPress.org"
+msgstr "A bővítmény oldala a WordPress.org-on"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Szélsebesség-átváltó: a látogatók egy értéket adnak meg (km/h, mph, Beaufort, m/s vagy csomó), és azonnal megkapják a többit."
+
+msgid "Fields"
+msgstr "Mezők"
+
+msgid "Show backlink"
+msgstr "Visszamutató hivatkozás megjelenítése"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "A látogatók szélsebességet válthatnak át km/h, mph, Beaufort, m/s és csomó között."

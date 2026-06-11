@@ -3,7 +3,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Windspeed Converter 1.4.0\n"
+"Project-Id-Version: Windspeed Converter 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wind-speed-converter\n"
 "POT-Creation-Date: 2026-06-11 12:00+0200\n"
 "PO-Revision-Date: 2026-06-11 12:00+0200\n"
@@ -63,3 +63,95 @@ msgstr "Naslov"
 #: widget.php:134
 msgid "Hide Link?"
 msgstr "Skrij povezavo?"
+
+msgid "Windspeed Converter – How to use"
+msgstr "Windspeed Converter – Kako ga uporabiti"
+
+msgid "How to use"
+msgstr "Kako ga uporabiti"
+
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+msgid "Support"
+msgstr "Podpora"
+
+msgid "Windspeed Converter is ready."
+msgstr "Windspeed Converter je pripravljen."
+
+#. translators: %s: the [windspeed_converter] shortcode.
+msgid "Add the converter to any page with the “Windspeed Converter” block, the shortcode %s or the widget."
+msgstr "Pretvornik dodajte na katero koli stran z blokom „Windspeed Converter“, s kratko kodo %s ali z gradnikom."
+
+msgid "Open the guide"
+msgstr "Odpri navodila"
+
+msgid "Dismiss"
+msgstr "Skrij"
+
+msgid "The converter lets visitors enter one wind speed value and instantly calculates the others."
+msgstr "Obiskovalci vnesejo eno vrednost hitrosti vetra, pretvornik pa takoj izračuna ostale."
+
+msgid "Block editor"
+msgstr "Urejevalnik blokov"
+
+msgid "Search for “Windspeed Converter” in the block inserter and add the block. Use the block settings in the sidebar to show or hide individual fields."
+msgstr "V vstavljalniku blokov poiščite „Windspeed Converter“ in dodajte blok. Z nastavitvami bloka v stranski vrstici lahko prikažete ali skrijete posamezna polja."
+
+msgid "Shortcode"
+msgstr "Kratka koda"
+
+msgid "Insert the converter into any post or page with this shortcode:"
+msgstr "Pretvornik vstavite v prispevek ali stran s to kratko kodo:"
+
+msgid "All fields are shown by default. Hide individual fields with attributes:"
+msgstr "Privzeto so prikazana vsa polja. Posamezna polja skrijete z atributi:"
+
+#. translators: %s: name of the converter field, e.g. "Km/h".
+msgid "Hides the “%s” field"
+msgstr "Skrije polje „%s“"
+
+msgid "Hides the backlink"
+msgstr "Skrije povratno povezavo"
+
+msgid "Attributes can be combined:"
+msgstr "Atribute je mogoče kombinirati:"
+
+msgid "Widget"
+msgstr "Gradnik"
+
+#. translators: %s: translated name of the widget.
+msgid "Add the “%s” widget under Appearance → Widgets, set a title and tick the fields you want to show."
+msgstr "Gradnik „%s“ dodajte v razdelku Videz → Gradniki, določite naslov in označite želena polja."
+
+msgid "Languages"
+msgstr "Jeziki"
+
+msgid "Translations for all 24 official EU languages are bundled. The converter follows the site language set under Settings → General."
+msgstr "Vključeni so prevodi v vseh 24 uradnih jezikov EU. Pretvornik sledi jeziku spletišča, nastavljenemu v Nastavitve → Splošno."
+
+msgid "Need help?"
+msgstr "Potrebujete pomoč?"
+
+msgid "Support forum"
+msgstr "Forum za podporo"
+
+msgid "Plugin page on WordPress.org"
+msgstr "Stran vtičnika na WordPress.org"
+
+msgid "Wind speed converter: visitors enter one value (km/h, mph, Beaufort, m/s or knots) and instantly get the others."
+msgstr "Pretvornik hitrosti vetra: obiskovalci vnesejo eno vrednost (km/h, mph, Beaufort, m/s ali vozli) in takoj dobijo ostale."
+
+msgid "Fields"
+msgstr "Polja"
+
+msgid "Show backlink"
+msgstr "Pokaži povratno povezavo"
+
+msgctxt "block title"
+msgid "Windspeed Converter"
+msgstr "Windspeed Converter"
+
+msgctxt "block description"
+msgid "Let visitors convert wind speeds between km/h, mph, Beaufort, m/s and knots."
+msgstr "Obiskovalcem omogočite pretvarjanje hitrosti vetra med km/h, mph, Beaufortom, m/s in vozli."
