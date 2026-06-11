@@ -1,6 +1,6 @@
 # Roadmap - Windspeed Converter WordPress Plugin
 
-## Status: v1.4.0 fertig und auf GitHub - SVN-Release auf WordPress.org ausstehend
+## Status: v1.4.0 released - SVN-Commit erfolgt, warte auf Aktualisierung der Plugin-Seite
 
 ### Version 1.3.0 - WordPress.org Review-Fixes (Februar 2026)
 
@@ -65,6 +65,7 @@ Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin 
 | Docker-Testsuite auf WP 7.0 (Plugin Check 0 Fehler, 23 Locales, E2E) | ✅ Erledigt |
 | SVN-Arbeitskopie /tmp/wind-speed-converter-svn vorbereitet (50 A, 5 M, MIME gesetzt) | ✅ Erledigt |
 | Branch in main gemergt und zu GitHub gepusht | ✅ Erledigt |
-| SVN-Commit v1.4.0 (trunk + tag + assets) — braucht wordpress.org-Credentials | ⏳ Ausstehend |
-| Release auf wordpress.org verifizieren (1.4.0 live, Assets, Sprachen im ZIP) | ⏳ Ausstehend |
+| SVN-Commit v1.4.0 trunk + assets | ✅ Erledigt (Revision 3569378) |
+| SVN-Tag 1.4.0 | ✅ Erledigt (Revision 3569379) |
+| Release auf wordpress.org verifizieren (1.4.0 live, Assets, Sprachen im ZIP) | ⏳ Ausstehend (SVN bestätigt, Plugin-Verzeichnis aktualisiert sich in wenigen Minuten) |
 | Docker-Testumgebung abräumen (docker compose down -v), Worktree + Branch löschen | ⏳ Ausstehend |
