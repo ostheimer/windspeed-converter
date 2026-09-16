@@ -2,6 +2,17 @@
 
 ## Status: v1.5.0 live auf WordPress.org
 
+### Nächstes reguläres Release
+
+| Aufgabe | Status |
+|---------|--------|
+| `readme.txt`, Abschnitt „Try the demo“: Link „Windspeed Converter site“ von `https://www.ostheimer.at/wordpress-plugins/windspeed-converter/` auf `https://www.ostheimer.at/leistungen/wordpress-plugins` umstellen. Die alte Seite existiert nicht mehr und ist seit 16.09.2026 nur per Weiterleitung erreichbar; die neue Übersicht führt das Plugin mit Beschreibung und WordPress.org-Link. | 📋 Geplant |
+| Satz „for a test run!“ anpassen oder den Abschnitt umbenennen – die Übersichtsseite bindet keinen Konverter zum Ausprobieren ein. | 📋 Geplant |
+| `Plugin URI` in `windspeed-converter.php` von `https://www.ostheimer.at/` auf dieselbe Übersichtsseite umstellen (heute praktisch identisch mit der `Author URI`). Backlinks „by Ostheimer.at“ in `widget.php` und `windspeed-converter.php` bleiben auf der Startseite. | 📋 Geplant |
+| Vor dem Release prüfen, dass jede neue URL mit 200 antwortet. | 📋 Geplant |
+
+Nicht als eigenes Link-Release veröffentlichen, sondern mit dem nächsten regulären Release.
+
 ### Version 1.3.0 - WordPress.org Review-Fixes (Februar 2026)
 
 Alle Probleme aus dem WordPress.org Plugin-Review wurden behoben und mit Plugin Check (PCP) 1.8.0 verifiziert.
