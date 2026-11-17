@@ -13,3 +13,5 @@ ROADMAP.md
 tests/
 phpunit.xml
 .DS_Store
+AGENTS.md
+CLAUDE.md
